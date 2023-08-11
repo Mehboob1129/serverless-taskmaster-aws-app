@@ -1,5 +1,5 @@
-org: trainwithshubham
-app: testing-end-to-end
+org: mehboob1129
+app: serverless-taskmaster-aws-app
 service: serverless-taskmaster-aws-app
 frameworkVersion: '3'
 
@@ -12,7 +12,7 @@ provider:
       Action:
         - dynamodb:*
       Resource:
-        - arn:aws:dynamodb:us-east-1:626072240565:table/KaamKaro
+        - arn:aws:dynamodb:ap-south-1:272112857859:table/KaamKaro
 
 functions:
   hello:
