@@ -6,13 +6,13 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: nodejs14.x
-  region: us-east-1
+  region: ap-south-1
   iamRoleStatements:
     - Effect: Allow
       Action:
         - dynamodb:*
       Resource:
-        - arn:aws:dynamodb:us-east-1:272112857859:table/dynamodb-test-table/KaamKaro
+        - arn:aws:dynamodb:ap-south-1:272112857859:table/KaamKaro
 
 functions:
   hello:
