@@ -5,7 +5,7 @@ const hello = async (event) => {
     statusCode: 200,
     body: JSON.stringify(
       {
-        message: "Hello friends we have successfuly created ci/cd with serverless framework",
+        message: "Hello friends we have successfuly created ci/cd with serverless framework ",
       },
       null,
       2
